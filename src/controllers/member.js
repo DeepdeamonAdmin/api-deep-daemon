@@ -70,7 +70,9 @@ const insertMember = (req, res = response ) => {
   }
 
 
-  
+  setInterval(function () {
+    mysqlConnection.query('SELECT 1');
+  }, 5000);
 
 
 
