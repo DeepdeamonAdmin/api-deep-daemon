@@ -21,8 +21,8 @@ app.post("/api/correos", (req, res) => {
       host: "smtp.gmail.com",
       port: 587,
       auth: {
-        user: "danimoncruz41@gmail.com", //El email del servicio SMTP que va a utilizar (en este caso Gmail)
-        pass: "Omarmoreno1$" // La contraseña de dicho SMTP
+        user: "correo@gmail.com", //El email del servicio SMTP que va a utilizar (en este caso Gmail)
+        pass: "contrasena" // La contraseña de dicho SMTP
       }
     });
 
