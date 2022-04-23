@@ -44,6 +44,8 @@ app.use('/api/project', require('./routes/project'));
 app.use('/api/tech', require('./routes/tech'));
 //ruta manejo de datos tabla publication
 app.use('/api/publication', require('./routes/publication'));
+//ruta manejo de correos
+//app.use('/api/correos', require('./routes/correos'));
 
 
 
